@@ -1,0 +1,107 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+    background-color: #F1F1F1;
+
+    box-sizing: border-box;
+}
+
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1;
+}
+
+.left-section {
+    flex: 1;
+    padding: 20px 20px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-section {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+
+    width: 150px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+
+
+
+.search-bar {
+    margin-top: -10px;
+}
+
+.placeholder-message {
+    font-size: 1.5rem;
+    color: #6B7280;
+    text-align: center;
+    padding: 20px;
+    font-weight: 300;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+
+    .app-container {
+         flex-direction: column;
+    }
+
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .left-section {
+        flex: unset;
+        order: 1;
+        width: 100%;
+        padding: 0;
+     }
+
+    .right-section {
+        order: 2;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+
+
+    .placeholder-message {
+        font-size: 1rem;
+        margin: 20px auto;
+    }
+
+    .logo {
+        margin: 65px auto 30px;
+    }
+}
