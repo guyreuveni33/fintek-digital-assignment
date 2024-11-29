@@ -1,0 +1,25 @@
+
+.intro-text {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-weight: 100;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #707070;
+    text-align: left;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+
+
+    .intro-text {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 1.4;
+        max-width: 400px;
+    }
+}

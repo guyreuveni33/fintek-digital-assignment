@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+
+    .coordinates-info {
+        order: 3;
+        margin-top: auto;
+        padding: 10px 0;
+    }
+}
+
+.coordinates-info {
+    margin-left: 40px;
+    font-size: 1rem;
+    color: #707070;
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
