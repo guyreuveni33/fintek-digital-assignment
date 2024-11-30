@@ -1,6 +1,7 @@
 # Weather Forecast Application
 
 This project is a weather forecast application that provides real-time weather data, including temperature, precipitation, humidity, and a 5-hour hourly forecast, for a user-specified city. It consists of a **client-side** React application and a **server-side** Node.js backend.
+![image](https://github.com/user-attachments/assets/d02b1d55-aea3-4071-aed2-8acc40b00e18)
 
 ## Table of Contents
 
