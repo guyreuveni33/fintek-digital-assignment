@@ -58,9 +58,9 @@ cd fintek-digital-assignment
    ```
 
 ### Step 3: Setup the Client
-1. Navigate to the `client` directory:
+1. Open another terminal and navigate to the client directory from the root project folder:
    ```bash
-   cd ../client
+   cd client
    ```
 2. Install dependencies:
    ```bash
